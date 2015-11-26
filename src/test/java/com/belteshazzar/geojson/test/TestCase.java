@@ -5,13 +5,13 @@ import static org.junit.Assert.fail;
 import java.io.IOException;
 import java.net.URL;
 
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
 
 import com.belteshazzar.geojson.GeoJSON;
 import com.belteshazzar.geojson.validation.LonLatValidator;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class TestCase
 {
