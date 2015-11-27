@@ -22,11 +22,9 @@
 			<url>http://opensource.org/licenses/BSD-3-Clause</url>
 		</license>
 	</licenses>
-
 	<scm>
 		<developerConnection>scm:git:ssh://git@github.com/belteshazzar/geojson.git</developerConnection>
 	</scm>
-
 	<developers>
 		<developer>
 			<id>belteshazzar</id>
