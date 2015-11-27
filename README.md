@@ -17,10 +17,10 @@ To use the package, you need to use following Maven dependency:
 <dependency>
   <groupId>com.belteshazzar</groupId>
   <artifactId>geojson</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.4</version>
 </dependency>
 ```
 
 ## Non-Maven Download
 
-For non-Maven use cases, you download jars from [Central Maven repository](http://repo1.maven.org/maven2/com/belteshazzar/geojson/0.0.2/geojson-0.0.2.jar).
+For non-Maven use cases, you download jars from [Central Maven repository](http://repo1.maven.org/maven2/com/belteshazzar/geojson/0.0.4/geojson-0.0.4.jar).
