@@ -24,3 +24,7 @@ To use the package, you need to use following Maven dependency:
 ## Non-Maven Download
 
 For non-Maven use cases, you download jars from [Central Maven repository](http://repo1.maven.org/maven2/com/belteshazzar/geojson/0.0.4/geojson-0.0.4.jar).
+
+## More Info
+
+For more information, including some simple tutorials of how to use this package [check out the wiki](https://github.com/belteshazzar/geojson/wiki).
