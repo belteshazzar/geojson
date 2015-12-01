@@ -1,6 +1,6 @@
-# belteshazzar GeoJSON Java Beans
+# GeoJSON Java POJOs
 
-This is a Java bean implementation of GeoJSON using Jackson serialization annotations. It can be used when implementing JAX-RS RESTful services that can directly read and write GeoJson.
+This is a Java POJO implementation of GeoJSON using Jackson serialization annotations. It can be used when implementing JAX-RS RESTful services that can directly read and write GeoJson.
 
 See https://github.com/FasterXML/jackson for Jackson docs.
 
