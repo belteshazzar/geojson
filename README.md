@@ -17,7 +17,7 @@ To use the package, you need to use following Maven dependency:
 <dependency>
   <groupId>com.belteshazzar</groupId>
   <artifactId>geojson</artifactId>
-  <version>0.0.4</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
