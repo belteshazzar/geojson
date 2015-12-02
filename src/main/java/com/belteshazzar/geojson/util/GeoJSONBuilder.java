@@ -28,32 +28,23 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-package com.belteshazzar.geojson;
+package com.belteshazzar.geojson.util;
 
-/**
- * A Bean representation of a GeoJSON Linked CRS object object.
- * 
- * From the GeoJSON Specification version 1.0:
- * 
- * A CRS object may link to CRS parameters on the Web. In this case, the value
- * of its "type" member must be the string "link", and the value of its
- * "properties" member must be a Link object.
- */
-public class LinkedCRSGeoJSON extends CRSGeoJSON
-{
-	public LinkedCRSPropertiesGeoJSON properties;
-	
-	public LinkedCRSGeoJSON() {
-		super();
-	}
-	
-	public LinkedCRSGeoJSON(LinkedCRSPropertiesGeoJSON properties) {
-		super();
-		this.properties = properties;
+import java.util.Arrays;
+import java.util.List;
+
+public class GeoJSONBuilder {
+
+	public static List<Double> lonLat(double lon, double lat) {
+		return Arrays.asList(lon,lat);
 	}
 
-	public boolean isValid( PositionValidator validator )
-	{
-		return properties.isValid(validator);
+	public static List<Double> lonLatAlt(double lon, double lat, double alt) {
+		return Arrays.asList(lon,lat,alt);
+	}
+	
+	public static List<Double> bbox(double minLon, double minLat,
+			double maxLon, double maxLat) {
+		return Arrays.asList(minLon,minLat,maxLon,maxLat);
 	}
 }
